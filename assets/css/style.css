@@ -1,0 +1,43 @@
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loop-events-loader {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 5px;
+	border: 3px solid rgba(200, 200, 200, 0.7);
+	border-top: 3px solid rgba(66, 66, 66, 0.5);
+	border-radius: 50%;
+	vertical-align: middle;
+	animation: spin 1s linear infinite;
+}
+
+.loop-events-badge {
+	display: inline;
+	color: #ffffff;
+	padding: 6px;
+	text-align: center;
+	line-height: 10px;
+	font-size: 13px;
+	margin: 0 5px;
+}
+
+.loop-events-badge.loop-events-badge-success {
+	background-color: #3c932c;
+}
+
+.loop-events-badge.loop-events-badge-error {
+	background-color: #93342c;
+}
+
+.loop-event-older-posts {
+	text-align: center;
+}

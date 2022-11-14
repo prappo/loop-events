@@ -19,9 +19,13 @@ class Loop_Bootstrap {
 		'class-base',
 		'helper',
 		'class-cpt',
+		'class-cli',
+		'class-custom-fields',
+		'class-import',
+		'class-assets',
 	);
 
-	private $bootstrap_files_list = array( 'class-cpt',);
+	private $bootstrap_files_list = array( 'class-cpt', 'class-cli','class-custom-fields', 'class-assets' );
 
 	public function __construct() {
 		$this->import_core_files()->init_core();
@@ -45,7 +49,7 @@ class Loop_Bootstrap {
 	 */
 	private function init_core() {
 		foreach ( $this->bootstrap_files_list as $bootstrap_file ) {
-			$class_name = '\Loop\\' . ucfirst( str_replace('class-','', $bootstrap_file ) );
+			$class_name = '\Loop\\' . ucfirst( str_replace('-','_' , str_replace( 'class-', '', $bootstrap_file ) ) );
 			$class_name::get_instance()->init();
 		}
 		return $this;

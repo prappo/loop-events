@@ -3,13 +3,13 @@
 namespace Loop;
 
 class CPT extends Base {
-    use BaseTrait;
-    
-    public function init()
-    {
-        add_action( 'init', array( $this, 'register_post_type' ) );
+
+	use BaseTrait;
+
+	public function init() {
+		add_action( 'init', array( $this, 'register_post_type' ) );
 		add_action( 'init', array( $this, 'register_taxonomies' ) );
-    }
+	}
 
 	public function register_post_type() {
 
@@ -47,21 +47,21 @@ class CPT extends Base {
 			'taxonomies'         => array( 'loop-event-tags' ),
 		);
 
-		register_post_type( LOOP_CPT_SLUG, $args );
+		register_post_type( $this->get_post_type(), $args );
 	}
 
 	public function register_taxonomies() {
 
 		$labels = array(
-			'name'              => _x( 'Tags', 'taxonomy general name', 'loop' ),
-			'singular_name'     => _x( 'Tag', 'taxonomy singular name', 'loop' ),
-			'search_items'      => __( 'Search Tags', 'loop' ),
-			'all_items'         => __( 'All Tags', 'loop' ),
-			'edit_item'         => __( 'Edit Tag', 'loop' ),
-			'update_item'       => __( 'Update Tag', 'loop' ),
-			'add_new_item'      => __( 'Add New Tag', 'loop' ),
-			'new_item_name'     => __( 'New Tag Name', 'loop' ),
-			'menu_name'         => __( 'Tag', 'loop' ),
+			'name'          => _x( 'Tags', 'taxonomy general name', 'loop' ),
+			'singular_name' => _x( 'Tag', 'taxonomy singular name', 'loop' ),
+			'search_items'  => __( 'Search Tags', 'loop' ),
+			'all_items'     => __( 'All Tags', 'loop' ),
+			'edit_item'     => __( 'Edit Tag', 'loop' ),
+			'update_item'   => __( 'Update Tag', 'loop' ),
+			'add_new_item'  => __( 'Add New Tag', 'loop' ),
+			'new_item_name' => __( 'New Tag Name', 'loop' ),
+			'menu_name'     => __( 'Tag', 'loop' ),
 		);
 
 		$args = array(
@@ -71,6 +71,6 @@ class CPT extends Base {
 			'show_admin_column' => true,
 			'query_var'         => true,
 		);
-		register_taxonomy( LOOP_CPT_SLUG . '-tags', LOOP_CPT_SLUG, $args );
+		register_taxonomy( $this->get_post_type() . '-tags', $this->get_post_type(), $args );
 	}
 }
