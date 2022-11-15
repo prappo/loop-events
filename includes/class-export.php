@@ -7,10 +7,10 @@ class Export extends Base {
 	use BaseTrait;
 
 	public function init() {
-		add_action( 'init', array( $this, 'export_from_url' ) );
+		add_action( 'init', array( $this, 'export_url' ) );
 	}
 
-	public function export_from_url() {
+	public function export_url() {
 		if ( isset( $_GET['export'] ) && 1 == $_GET['export'] ) {
 			echo self::download();
 			exit;
