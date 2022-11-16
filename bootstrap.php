@@ -25,6 +25,8 @@ class Loop_Bootstrap {
 		'class-export',
 		'class-assets',
 		'class-menu',
+		'class-ajax',
+		'class-hooks',
 	);
 
 	private $bootstrap_files_list = array( 
@@ -34,6 +36,8 @@ class Loop_Bootstrap {
 		'class-assets',
 		'class-export',
 		'class-menu',
+		'class-ajax',
+		'class-hooks',
 	);
 
 	public function __construct() {

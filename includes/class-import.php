@@ -36,19 +36,21 @@ class Import {
 		$strat_time = microtime( true );
 
 		$count = count($raw_data);
-		$progress = \WP_CLI\Utils\make_progress_bar( 'Importing Events : ', $count );
-		
-		
+		$progress = null;
 
+		if(class_exists('\WP_CLI')){
+			$progress = \WP_CLI\Utils\make_progress_bar( 'Importing Events : ', $count );
+		}
+		
 		foreach ( $raw_data as $event_data ) {
 			$data        = $this->parse_data( $event_data );
 			$post_args   = $this->prepare_post_data( $data );
 			$post_fields = $this->prepare_post_fields( $data );
 			$this->import_post( $post_args, $post_fields );
-			$progress->tick();
+			($progress) ? $progress->tick() : '';
 		}
 
-		$progress->finish();
+		($progress) ? $progress->finish() : '';
 
 		$time_spent = microtime( true ) - $strat_time;
 		$this->set_stats( 'time', $time_spent );
