@@ -9,6 +9,7 @@
       "address": "458 Malta Street, Gibsonia, Louisiana, 8573",
       "latitude": 6.814443,
       "longitude": 63.023457,
+      "isActive": false,
       "tags": [
         "exercitation",
         "ullamco",
@@ -49,6 +50,7 @@
       "address": "154 Polhemus Place, Shaft, Kansas, 2779",
       "latitude": 2.292412,
       "longitude": -132.185222,
+      "isActive": false,
       "tags": [
         "deserunt",
         "labore",
@@ -69,6 +71,7 @@
       "address": "588 Decatur Street, Kapowsin, Arkansas, 6229",
       "latitude": 57.258956,
       "longitude": 146.654141,
+      "isActive": true,
       "tags": [
         "ex",
         "Lorem",
@@ -89,6 +92,7 @@
       "address": "925 Pineapple Street, Waumandee, Virgin Islands, 6524",
       "latitude": 33.591986,
       "longitude": 68.787363,
+      "isActive": false,
       "tags": [
         "eiusmod",
         "quis",
@@ -109,6 +113,7 @@
       "address": "578 Ross Street, Brule, Wisconsin, 5030",
       "latitude": -34.295505,
       "longitude": 48.078814,
+      "isActive": false,
       "tags": [
         "non",
         "sint",
@@ -129,6 +134,7 @@
       "address": "651 Dooley Street, Bladensburg, Rhode Island, 2157",
       "latitude": 43.289758,
       "longitude": 100.261114,
+      "isActive": true,
       "tags": [
         "proident",
         "esse",
@@ -149,6 +155,7 @@
       "address": "880 Elmwood Avenue, Loveland, Guam, 9084",
       "latitude": -4.880796,
       "longitude": -70.941328,
+      "isActive": false,
       "tags": [
         "aute",
         "elit",
@@ -169,6 +176,7 @@
       "address": "481 Cleveland Street, Moraida, Connecticut, 2799",
       "latitude": 43.755629,
       "longitude": 33.00449,
+      "isActive": false,
       "tags": [
         "nisi",
         "consequat",
@@ -189,6 +197,7 @@
       "address": "487 Applegate Court, Hoehne, Ohio, 7940",
       "latitude": -9.644808,
       "longitude": -73.037652,
+      "isActive": true,
       "tags": [
         "ut",
         "nostrud",
@@ -209,6 +218,7 @@
       "address": "538 Stratford Road, Independence, Arizona, 4258",
       "latitude": 74.457586,
       "longitude": 129.995753,
+      "isActive": false,
       "tags": [
         "fugiat",
         "anim",
@@ -229,6 +239,7 @@
       "address": "890 Emerald Street, Turpin, Kentucky, 3802",
       "latitude": 37.357905,
       "longitude": 61.961014,
+      "isActive": true,
       "tags": [
         "proident",
         "eiusmod",
@@ -249,6 +260,7 @@
       "address": "960 Livonia Avenue, Hickory, Georgia, 7880",
       "latitude": 24.767793,
       "longitude": 98.935578,
+      "isActive": true,
       "tags": [
         "cupidatat",
         "tempor",
@@ -269,6 +281,7 @@
       "address": "476 Lamont Court, Cazadero, Tennessee, 9351",
       "latitude": -89.476724,
       "longitude": -141.823328,
+      "isActive": false,
       "tags": [
         "ut",
         "culpa",
@@ -289,6 +302,7 @@
       "address": "274 Degraw Street, Devon, Vermont, 6986",
       "latitude": -60.183843,
       "longitude": 148.202667,
+      "isActive": false,
       "tags": [
         "deserunt",
         "quis",
@@ -309,6 +323,7 @@
       "address": "916 Strong Place, Evergreen, Oklahoma, 466",
       "latitude": -52.900825,
       "longitude": -118.429357,
+      "isActive": true,
       "tags": [
         "laborum",
         "incididunt",
@@ -329,6 +344,7 @@
       "address": "550 Clifford Place, Saticoy, North Carolina, 4835",
       "latitude": 70.367842,
       "longitude": -90.685537,
+      "isActive": true,
       "tags": [
         "ullamco",
         "et",
@@ -349,6 +365,7 @@
       "address": "821 Vermont Court, Coldiron, Marshall Islands, 8021",
       "latitude": 32.056339,
       "longitude": 60.266221,
+      "isActive": true,
       "tags": [
         "ad",
         "pariatur",
@@ -369,6 +386,7 @@
       "address": "261 Gelston Avenue, Tooleville, Alaska, 6108",
       "latitude": 43.575182,
       "longitude": -100.359129,
+      "isActive": false,
       "tags": [
         "consectetur",
         "quis",
@@ -389,6 +407,7 @@
       "address": "964 Boerum Place, Vandiver, Indiana, 5351",
       "latitude": -89.53983,
       "longitude": 32.644495,
+      "isActive": false,
       "tags": [
         "sunt",
         "deserunt",
@@ -409,6 +428,7 @@
       "address": "568 Franklin Avenue, Oretta, Minnesota, 5272",
       "latitude": 71.253723,
       "longitude": -14.637181,
+      "isActive": true,
       "tags": [
         "aliquip",
         "ut",
@@ -429,6 +449,7 @@
       "address": "567 Columbia Place, Dawn, Iowa, 6720",
       "latitude": 87.804982,
       "longitude": -58.18634,
+      "isActive": true,
       "tags": [
         "cupidatat",
         "enim",
@@ -449,6 +470,7 @@
       "address": "805 Kensington Street, Manitou, District Of Columbia, 6380",
       "latitude": -76.452458,
       "longitude": 121.63395,
+      "isActive": true,
       "tags": [
         "adipisicing",
         "ut",
@@ -469,6 +491,7 @@
       "address": "567 Gunther Place, Babb, Massachusetts, 6791",
       "latitude": 0.07099,
       "longitude": 109.715652,
+      "isActive": true,
       "tags": [
         "culpa",
         "ipsum",
@@ -489,6 +512,7 @@
       "address": "306 Bartlett Street, Frizzleburg, Utah, 6380",
       "latitude": -76.1324,
       "longitude": -45.583781,
+      "isActive": false,
       "tags": [
         "adipisicing",
         "pariatur",
@@ -509,6 +533,7 @@
       "address": "187 Rost Place, Cuylerville, Hawaii, 8695",
       "latitude": -40.523598,
       "longitude": 88.092416,
+      "isActive": true,
       "tags": [
         "duis",
         "aliquip",
@@ -529,6 +554,7 @@
       "address": "392 Kiely Place, Cecilia, Puerto Rico, 4564",
       "latitude": 76.930262,
       "longitude": 6.210577,
+      "isActive": false,
       "tags": [
         "cillum",
         "in",
@@ -549,6 +575,7 @@
       "address": "325 Kermit Place, Kenvil, Texas, 7748",
       "latitude": 15.771583,
       "longitude": 117.679889,
+      "isActive": false,
       "tags": [
         "eu",
         "sit",
@@ -569,6 +596,7 @@
       "address": "350 Hull Street, Gambrills, Washington, 639",
       "latitude": -56.427959,
       "longitude": -163.845338,
+      "isActive": true,
       "tags": [
         "non",
         "reprehenderit",
@@ -589,6 +617,7 @@
       "address": "692 Melba Court, Diaperville, North Dakota, 8975",
       "latitude": 6.61682,
       "longitude": 94.93071,
+      "isActive": true,
       "tags": [
         "et",
         "est",
@@ -609,6 +638,7 @@
       "address": "772 Berry Street, Winston, Alabama, 5515",
       "latitude": 22.613856,
       "longitude": 135.796882,
+      "isActive": false,
       "tags": [
         "ipsum",
         "velit",
@@ -629,6 +659,7 @@
       "address": "629 Metrotech Courtr, Tibbie, Northern Mariana Islands, 5159",
       "latitude": -82.095405,
       "longitude": -10.015414,
+      "isActive": true,
       "tags": [
         "laboris",
         "velit",
@@ -649,6 +680,7 @@
       "address": "402 Stoddard Place, Gulf, Idaho, 4009",
       "latitude": 0.380799,
       "longitude": -164.28101,
+      "isActive": false,
       "tags": [
         "officia",
         "proident",
@@ -669,6 +701,7 @@
       "address": "985 Sumpter Street, Hemlock, South Dakota, 5754",
       "latitude": 52.775149,
       "longitude": -19.704548,
+      "isActive": true,
       "tags": [
         "id",
         "aliquip",
@@ -689,6 +722,7 @@
       "address": "320 Furman Street, Reinerton, American Samoa, 1094",
       "latitude": 7.424822,
       "longitude": -179.051333,
+      "isActive": false,
       "tags": [
         "excepteur",
         "ea",
@@ -709,6 +743,7 @@
       "address": "878 Commercial Street, Coleville, Montana, 6274",
       "latitude": -60.075908,
       "longitude": 80.957423,
+      "isActive": true,
       "tags": [
         "aute",
         "sint",
@@ -729,6 +764,7 @@
       "address": "760 Ingraham Street, Goochland, New York, 1852",
       "latitude": -48.731731,
       "longitude": 32.229183,
+      "isActive": true,
       "tags": [
         "qui",
         "ea",
@@ -749,6 +785,7 @@
       "address": "659 Woodside Avenue, Rehrersburg, Michigan, 2093",
       "latitude": 58.690255,
       "longitude": 159.643314,
+      "isActive": true,
       "tags": [
         "exercitation",
         "culpa",
@@ -769,6 +806,7 @@
       "address": "768 Varick Street, Elrama, California, 2777",
       "latitude": -35.918884,
       "longitude": 65.109005,
+      "isActive": false,
       "tags": [
         "incididunt",
         "incididunt",
@@ -789,6 +827,7 @@
       "address": "845 Linden Street, Salunga, Palau, 9492",
       "latitude": 26.291624,
       "longitude": -60.880154,
+      "isActive": true,
       "tags": [
         "occaecat",
         "mollit",
@@ -809,6 +848,7 @@
       "address": "799 Seigel Court, Witmer, Mississippi, 5790",
       "latitude": 38.417431,
       "longitude": -102.248734,
+      "isActive": true,
       "tags": [
         "magna",
         "duis",
@@ -829,6 +869,7 @@
       "address": "430 Dover Street, Biehle, Florida, 8307",
       "latitude": 26.856469,
       "longitude": -126.771833,
+      "isActive": true,
       "tags": [
         "proident",
         "nulla",
@@ -849,6 +890,7 @@
       "address": "828 Eldert Street, Jamestown, Oregon, 4099",
       "latitude": -22.717428,
       "longitude": -63.27161,
+      "isActive": false,
       "tags": [
         "ipsum",
         "adipisicing",
@@ -869,6 +911,7 @@
       "address": "104 Elliott Walk, Lindisfarne, South Carolina, 4802",
       "latitude": -35.807144,
       "longitude": -11.935116,
+      "isActive": true,
       "tags": [
         "amet",
         "sit",
@@ -889,6 +932,7 @@
       "address": "311 Concord Street, Muir, Delaware, 8011",
       "latitude": -69.855634,
       "longitude": -26.465759,
+      "isActive": false,
       "tags": [
         "fugiat",
         "exercitation",
@@ -909,6 +953,7 @@
       "address": "593 Devon Avenue, Blodgett, Maine, 8709",
       "latitude": -6.521844,
       "longitude": 154.616249,
+      "isActive": true,
       "tags": [
         "elit",
         "voluptate",
@@ -929,6 +974,7 @@
       "address": "923 Osborn Street, Allentown, Nevada, 4336",
       "latitude": 68.313427,
       "longitude": -45.330113,
+      "isActive": true,
       "tags": [
         "in",
         "ut",
@@ -949,6 +995,7 @@
       "address": "203 Kingsway Place, Harrison, West Virginia, 6305",
       "latitude": 79.811153,
       "longitude": 47.796892,
+      "isActive": false,
       "tags": [
         "ipsum",
         "veniam",
@@ -969,6 +1016,7 @@
       "address": "886 Sharon Street, Defiance, Pennsylvania, 5210",
       "latitude": 36.489137,
       "longitude": -112.206675,
+      "isActive": true,
       "tags": [
         "est",
         "minim",
@@ -989,6 +1037,7 @@
       "address": "980 Maple Avenue, Tampico, Maryland, 7574",
       "latitude": 73.269611,
       "longitude": -106.109261,
+      "isActive": true,
       "tags": [
         "minim",
         "cillum",
@@ -1009,6 +1058,7 @@
       "address": "651 Anchorage Place, Russellville, Federated States Of Micronesia, 5340",
       "latitude": -47.947755,
       "longitude": -65.358213,
+      "isActive": true,
       "tags": [
         "sit",
         "pariatur",
@@ -1029,6 +1079,7 @@
       "address": "208 Banker Street, Darlington, Nebraska, 2378",
       "latitude": -82.75029,
       "longitude": -21.44848,
+      "isActive": true,
       "tags": [
         "do",
         "ipsum",
@@ -1049,6 +1100,7 @@
       "address": "759 Chester Street, Templeton, New Mexico, 5257",
       "latitude": 28.869026,
       "longitude": 64.823077,
+      "isActive": true,
       "tags": [
         "aliqua",
         "proident",
@@ -1069,6 +1121,7 @@
       "address": "463 Stryker Court, Temperanceville, New Hampshire, 4830",
       "latitude": -68.262915,
       "longitude": -170.548139,
+      "isActive": false,
       "tags": [
         "quis",
         "culpa",
@@ -1089,6 +1142,7 @@
       "address": "839 Jewel Street, Williston, Illinois, 2027",
       "latitude": 84.250009,
       "longitude": -45.982827,
+      "isActive": true,
       "tags": [
         "do",
         "duis",
@@ -1109,6 +1163,7 @@
       "address": "733 Troutman Street, Breinigsville, Virginia, 8205",
       "latitude": -68.052301,
       "longitude": 112.171116,
+      "isActive": true,
       "tags": [
         "in",
         "labore",
@@ -1129,6 +1184,7 @@
       "address": "357 Heath Place, Washington, Colorado, 5185",
       "latitude": 89.938679,
       "longitude": -41.128561,
+      "isActive": true,
       "tags": [
         "esse",
         "non",
@@ -1149,6 +1205,7 @@
       "address": "246 Ridgecrest Terrace, Imperial, Wyoming, 1486",
       "latitude": -61.113258,
       "longitude": -20.161134,
+      "isActive": true,
       "tags": [
         "et",
         "commodo",
@@ -1169,6 +1226,7 @@
       "address": "773 Emerson Place, Neibert, Louisiana, 3799",
       "latitude": -69.885461,
       "longitude": 145.441383,
+      "isActive": false,
       "tags": [
         "esse",
         "dolore",
@@ -1189,6 +1247,7 @@
       "address": "671 Verona Street, Sanders, New Jersey, 6316",
       "latitude": 8.117826,
       "longitude": 18.176529,
+      "isActive": true,
       "tags": [
         "tempor",
         "est",
@@ -1209,6 +1268,7 @@
       "address": "455 Cobek Court, Terlingua, Kansas, 2015",
       "latitude": -63.292232,
       "longitude": -12.974189,
+      "isActive": true,
       "tags": [
         "exercitation",
         "et",
@@ -1229,6 +1289,7 @@
       "address": "821 Remsen Avenue, Edgar, Arkansas, 6351",
       "latitude": -81.71632,
       "longitude": -141.55123,
+      "isActive": true,
       "tags": [
         "excepteur",
         "nisi",
@@ -1249,6 +1310,7 @@
       "address": "636 Chestnut Avenue, Cochranville, Virgin Islands, 5888",
       "latitude": 37.986351,
       "longitude": -84.06371,
+      "isActive": true,
       "tags": [
         "tempor",
         "ipsum",
@@ -1269,6 +1331,7 @@
       "address": "400 Tompkins Avenue, Jacumba, Wisconsin, 2101",
       "latitude": -71.145335,
       "longitude": 35.242389,
+      "isActive": true,
       "tags": [
         "do",
         "aliqua",
@@ -1289,6 +1352,7 @@
       "address": "560 Louisa Street, Brazos, Rhode Island, 8822",
       "latitude": 16.613454,
       "longitude": -18.324284,
+      "isActive": false,
       "tags": [
         "ullamco",
         "officia",
@@ -1309,6 +1373,7 @@
       "address": "246 Mill Road, Loretto, Guam, 6474",
       "latitude": -18.195551,
       "longitude": 119.545744,
+      "isActive": true,
       "tags": [
         "duis",
         "nisi",
@@ -1329,6 +1394,7 @@
       "address": "343 Moore Street, Leyner, Connecticut, 6051",
       "latitude": -45.7304,
       "longitude": -90.330475,
+      "isActive": false,
       "tags": [
         "irure",
         "amet",
@@ -1349,6 +1415,7 @@
       "address": "893 Leonora Court, Hayden, Ohio, 5863",
       "latitude": -75.152915,
       "longitude": 35.545542,
+      "isActive": true,
       "tags": [
         "sit",
         "reprehenderit",
@@ -1369,6 +1436,7 @@
       "address": "908 Vanderveer Place, Wells, Arizona, 4882",
       "latitude": 6.495582,
       "longitude": 163.23959,
+      "isActive": true,
       "tags": [
         "nostrud",
         "Lorem",
@@ -1389,6 +1457,7 @@
       "address": "188 Bergen Place, Ypsilanti, Kentucky, 4589",
       "latitude": 72.834336,
       "longitude": -115.656201,
+      "isActive": true,
       "tags": [
         "labore",
         "ullamco",
@@ -1409,6 +1478,7 @@
       "address": "408 Richardson Street, Stonybrook, Georgia, 4209",
       "latitude": 60.846722,
       "longitude": 80.018634,
+      "isActive": false,
       "tags": [
         "mollit",
         "dolore",
@@ -1429,6 +1499,7 @@
       "address": "618 Village Court, Cliff, Tennessee, 185",
       "latitude": 81.080803,
       "longitude": 59.959956,
+      "isActive": false,
       "tags": [
         "adipisicing",
         "sunt",
@@ -1449,6 +1520,7 @@
       "address": "342 Horace Court, Calverton, Vermont, 3763",
       "latitude": -28.886357,
       "longitude": -59.776043,
+      "isActive": true,
       "tags": [
         "laborum",
         "quis",
@@ -1469,6 +1541,7 @@
       "address": "403 Rapelye Street, Brownlee, Oklahoma, 8701",
       "latitude": 28.249478,
       "longitude": 17.939396,
+      "isActive": true,
       "tags": [
         "incididunt",
         "anim",
@@ -1489,6 +1562,7 @@
       "address": "198 Bank Street, Waikele, North Carolina, 4778",
       "latitude": -15.895306,
       "longitude": -97.804938,
+      "isActive": true,
       "tags": [
         "enim",
         "exercitation",
@@ -1509,6 +1583,7 @@
       "address": "639 Flatlands Avenue, Naomi, Marshall Islands, 9707",
       "latitude": 69.476413,
       "longitude": 18.221925,
+      "isActive": true,
       "tags": [
         "exercitation",
         "est",
@@ -1529,6 +1604,7 @@
       "address": "383 Cropsey Avenue, Laurelton, Alaska, 685",
       "latitude": -66.152339,
       "longitude": -99.27954,
+      "isActive": false,
       "tags": [
         "velit",
         "irure",
@@ -1549,6 +1625,7 @@
       "address": "471 Everett Avenue, Beason, Indiana, 7963",
       "latitude": 37.752168,
       "longitude": -170.983729,
+      "isActive": true,
       "tags": [
         "elit",
         "in",
@@ -1569,6 +1646,7 @@
       "address": "916 Mayfair Drive, Veguita, Minnesota, 3161",
       "latitude": -39.678066,
       "longitude": -174.967488,
+      "isActive": true,
       "tags": [
         "veniam",
         "ut",
@@ -1589,6 +1667,7 @@
       "address": "939 Brown Street, Glenbrook, Iowa, 8405",
       "latitude": 58.699928,
       "longitude": -12.600825,
+      "isActive": false,
       "tags": [
         "minim",
         "labore",
@@ -1609,6 +1688,7 @@
       "address": "251 Hart Place, Johnsonburg, District Of Columbia, 5030",
       "latitude": -49.312304,
       "longitude": -109.374001,
+      "isActive": false,
       "tags": [
         "occaecat",
         "aliquip",
@@ -1629,6 +1709,7 @@
       "address": "482 Bayview Avenue, Weeksville, Massachusetts, 1625",
       "latitude": -74.527218,
       "longitude": 173.565103,
+      "isActive": false,
       "tags": [
         "eiusmod",
         "ut",
@@ -1649,6 +1730,7 @@
       "address": "269 Hunts Lane, Hobucken, Utah, 1358",
       "latitude": -65.089622,
       "longitude": 151.873857,
+      "isActive": false,
       "tags": [
         "proident",
         "sit",
@@ -1669,6 +1751,7 @@
       "address": "186 Raleigh Place, Harrodsburg, Hawaii, 1376",
       "latitude": 71.674631,
       "longitude": -174.083359,
+      "isActive": true,
       "tags": [
         "amet",
         "ea",
@@ -1689,6 +1772,7 @@
       "address": "931 Broome Street, Kiskimere, Puerto Rico, 2198",
       "latitude": -78.389764,
       "longitude": 134.083543,
+      "isActive": false,
       "tags": [
         "magna",
         "culpa",
@@ -1709,6 +1793,7 @@
       "address": "782 Conover Street, Hackneyville, Texas, 3759",
       "latitude": -88.891222,
       "longitude": 149.969505,
+      "isActive": true,
       "tags": [
         "consequat",
         "nostrud",
@@ -1729,6 +1814,7 @@
       "address": "600 Hemlock Street, Finzel, Washington, 1180",
       "latitude": -2.46946,
       "longitude": 96.49578,
+      "isActive": true,
       "tags": [
         "officia",
         "occaecat",
@@ -1749,6 +1835,7 @@
       "address": "839 Hornell Loop, Chumuckla, North Dakota, 9205",
       "latitude": -77.868778,
       "longitude": -136.929458,
+      "isActive": false,
       "tags": [
         "ipsum",
         "enim",
@@ -1769,6 +1856,7 @@
       "address": "298 Cass Place, Westphalia, Alabama, 5241",
       "latitude": -79.843608,
       "longitude": -169.649229,
+      "isActive": true,
       "tags": [
         "dolore",
         "dolor",
@@ -1789,6 +1877,7 @@
       "address": "755 Nassau Street, Leeper, Northern Mariana Islands, 5263",
       "latitude": 38.842765,
       "longitude": 21.516775,
+      "isActive": true,
       "tags": [
         "ut",
         "nulla",
@@ -1809,6 +1898,7 @@
       "address": "957 Cypress Court, Villarreal, Idaho, 2457",
       "latitude": -71.649428,
       "longitude": -133.516385,
+      "isActive": false,
       "tags": [
         "amet",
         "sit",
@@ -1829,6 +1919,7 @@
       "address": "464 Lacon Court, Riviera, South Dakota, 1650",
       "latitude": -86.629253,
       "longitude": -137.687757,
+      "isActive": true,
       "tags": [
         "enim",
         "minim",
@@ -1849,6 +1940,7 @@
       "address": "148 Woods Place, Walker, American Samoa, 327",
       "latitude": 79.993451,
       "longitude": -110.972053,
+      "isActive": true,
       "tags": [
         "velit",
         "dolore",
@@ -1869,6 +1961,7 @@
       "address": "841 Seaview Court, Waterford, Montana, 5759",
       "latitude": 14.621844,
       "longitude": 145.626531,
+      "isActive": true,
       "tags": [
         "laborum",
         "consectetur",
@@ -1889,6 +1982,7 @@
       "address": "251 Howard Avenue, Grazierville, New York, 6535",
       "latitude": 54.049048,
       "longitude": 172.287172,
+      "isActive": true,
       "tags": [
         "nostrud",
         "ea",
@@ -1909,6 +2003,7 @@
       "address": "937 Meeker Avenue, Martell, Michigan, 983",
       "latitude": 2.487746,
       "longitude": 115.21541,
+      "isActive": false,
       "tags": [
         "officia",
         "minim",
@@ -1929,6 +2024,7 @@
       "address": "858 Dekoven Court, Magnolia, California, 9290",
       "latitude": -29.762785,
       "longitude": 39.812536,
+      "isActive": false,
       "tags": [
         "eu",
         "mollit",
@@ -1949,6 +2045,7 @@
       "address": "871 Midwood Street, Kirk, Palau, 9712",
       "latitude": -10.295763,
       "longitude": -0.464727,
+      "isActive": false,
       "tags": [
         "aliquip",
         "ex",
@@ -1969,6 +2066,7 @@
       "address": "244 Lester Court, Waverly, Mississippi, 3379",
       "latitude": 29.273532,
       "longitude": -165.376912,
+      "isActive": true,
       "tags": [
         "nostrud",
         "Lorem",
@@ -1989,6 +2087,7 @@
       "address": "823 Roosevelt Court, Vallonia, Florida, 1529",
       "latitude": -33.850465,
       "longitude": 99.247867,
+      "isActive": true,
       "tags": [
         "sit",
         "sunt",

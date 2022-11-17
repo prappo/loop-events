@@ -43,7 +43,7 @@ class CPT extends Base {
 			'capability_type'    => 'post',
 			'has_archive'        => true,
 			'menu_icon'          => 'dashicons-calendar',
-			'supports'           => array( 'title', 'editor', 'author' ),
+			'supports'           => array( 'title', 'editor' ),
 			'taxonomies'         => array( 'loop-event-tags' ),
 		);
 

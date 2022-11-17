@@ -27,7 +27,8 @@
 	text-align: center;
 	line-height: 10px;
 	font-size: 13px;
-	margin: 0 5px;
+	
+	border-radius: 3px;
 }
 
 .loop-events-badge.loop-events-badge-success {
@@ -35,9 +36,22 @@
 }
 
 .loop-events-badge.loop-events-badge-error {
-	background-color: #93342c;
+	background-color: red;
+	
 }
 
 .loop-event-older-posts {
 	text-align: center;
+}
+.loop-events-settings{
+	display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 320px;
+	justify-content: space-between;
+}
+
+.loop-events-admin-main{
+	display: flex;
+	gap: 30px;
 }

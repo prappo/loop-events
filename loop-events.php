@@ -33,7 +33,7 @@ final class Loop_Events {
 		define( 'LOOP_DIR', plugin_dir_path( __FILE__ ) );
 		define( 'LOOP_URL', plugin_dir_url( __FILE__ ) );
 		define( 'LOOP_ASSETS_URL', LOOP_URL . '/assets' );
-		define( 'LOOP_CPT_SLUG', 'loop_event' );
+		define( 'LOOP_CPT_SLUG', 'loop-event' );
 		define( 'LOOP_DATA_DIR', plugin_dir_path( __FILE__ ) . 'data/' );
 	}
 

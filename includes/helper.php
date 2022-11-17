@@ -32,9 +32,9 @@ function loop_events_show_map_link() {
 		$longitude = $map_data['center_lng'];
 		$map_link  = "https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}";
 		?>
-		<strong><?php esc_html_e( 'Location: ', 'loop-events' ); ?></strong>
+		<strong><?php esc_html_e( 'Location: ', 'loop' ); ?></strong>
 		<a href="<?php echo esc_attr( $map_link ); ?>">
-			<?php esc_html_e( 'View on the map', 'loop-events' ); ?>
+			<?php esc_html_e( 'View on the map', 'loop' ); ?>
 		</a>
 		<?php
 	}
@@ -44,7 +44,7 @@ function loop_events_show_organizer_email() {
 	$email = loop_events_get_field( 'loop_events_organizer_email' );
 	if ( $email ) :
 		?>
-		<strong><?php esc_html_e( 'Organizer Email: ', 'loop-events' ); ?></strong>
+		<strong><?php esc_html_e( 'Organizer Email: ', 'loop' ); ?></strong>
 		<a href="mailto:<?php echo esc_attr( $email ); ?>">
 			<?php echo esc_html( $email ); ?>
 		</a>	
@@ -63,7 +63,7 @@ function loop_events_show_time() {
 	$date_time = loop_events_get_field( 'loop_events_date_and_time' );
 	if ( $date_time ) {
 		?>
-		<strong><?php esc_html_e( 'Starts in: ', 'loop-events' ); ?></strong>
+		<strong><?php esc_html_e( 'Starts in: ', 'loop' ); ?></strong>
 		<?php
 		echo human_time_diff( strtotime( $date_time ), time() );
 	}
