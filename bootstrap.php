@@ -15,9 +15,9 @@ class Loop_Bootstrap {
 	}
 
 	private $required_files = array(
+		'helper',
 		'trait',
 		'class-base',
-		'helper',
 		'class-cpt',
 		'class-cli',
 		'class-custom-fields',

@@ -15,11 +15,11 @@ class Assets extends Base {
 	 * @since 1.0.0
 	 */
 	public function __construct() {
-		add_action( 'admin_enqueue_scripts', array( $this, 'register_assets' ), 5 );
+		add_action( 'wp_enqueue_scripts', array( $this, 'register_assets' ), 5 );
 	}
 
 	public function init(){
-		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
 	}
 
 	/**
