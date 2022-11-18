@@ -8,3 +8,9 @@
 5. You can **import** custom json data from *Admin dashboard -> Events -> Import & Export events*
 6. In order to **export** data use *Export existing data* button from *Admin dashboard -> Settings -> Import & Export events* to download data as a json file.
 7. Data can be **export** by navigating `http://site.dom/wp-admin/edit.php?post_type=loop-event&export=events` as JSON format.
+
+## Screenshots
+
+<img src="screenshots/wp-cli.png" />
+<img src="screenshots/archive-page.png" />
+<img src="screenshots/single-event.png" />
