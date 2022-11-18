@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+<?php
+
+/**
+ * Template file for single event.
+ *
+ * @package loop
+ */
+
+get_header();
+?>
 
 <div class="loop-single-post" ?> 
 	<header class="entry-header alignwide">

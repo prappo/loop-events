@@ -14,7 +14,11 @@ class Ajax extends Base {
 		check_ajax_referer( 'loop_events_settings', 'nonce' );
 
 		if ( ! isset( $_FILES['events'] ) || empty( $_FILES['events'] ) ) {
-			wp_send_json_error( array( 'message' => __( 'Please select a file!' ) ) );
+			wp_send_json_error( 
+				array( 
+					'message' => __( 'Please select a file!' ) 
+					) 
+				);
 		}
 
 		$file = file_get_contents( $_FILES['events']['tmp_name'] );
@@ -26,7 +30,12 @@ class Ajax extends Base {
 		}
 
 		if ( ! loop_events_is_acf_active() ) {
-			wp_send_json_error( array( 'message' => __( 'Please activate ACF before importing events data!' ) ) );
+
+			wp_send_json_error( 
+				array( 
+					'message' => __( 'Please activate ACF before importing events data!' ) 
+					) 
+				);
 		}
 
 		$importer = new Import();
@@ -46,7 +55,11 @@ class Ajax extends Base {
 		check_ajax_referer( 'loop_events_settings', 'nonce' );
 
 		if ( ! loop_events_is_acf_active() ) {
-			wp_send_json_error( array( 'message' => __( 'Please activate ACF before importing events data!' ) ) );
+			wp_send_json_error( 
+				array( 
+					'message' => __( 'Please activate ACF before importing events data!' ) 
+					) 
+				);
 		}
 
 		$exporter    = new Export();

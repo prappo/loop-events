@@ -11,7 +11,7 @@ class Export extends Base {
 	}
 
 	public function export_url() {
-		if ( isset( $_GET['export'] ) && 1 == $_GET['export'] ) {
+		if ( isset( $_GET['export'] ) && 'events' == $_GET['export'] ) {
 			echo self::download();
 			exit;
 		}

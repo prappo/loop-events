@@ -71,6 +71,9 @@ class CPT extends Base {
 			'show_admin_column' => true,
 			'query_var'         => true,
 		);
-		register_taxonomy( $this->get_post_type() . '-tags', $this->get_post_type(), $args );
+		register_taxonomy( 
+			$this->get_post_type() . '-tags', 
+			$this->get_post_type(), 
+			$args );
 	}
 }

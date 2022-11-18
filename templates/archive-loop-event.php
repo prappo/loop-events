@@ -1,4 +1,14 @@
-<?php get_header(); ?>
+<?php
+
+/**
+ * Archive template file.
+ *
+ * @package loop
+ */
+
+get_header(); 
+?>
+
 <div class="loop-events">
 	<?php
    
@@ -16,7 +26,7 @@
 					</a>
 				</h2>
 			</header>
-		
+
 			<main>
 				<?php the_content(); ?>
 				<p>
@@ -45,7 +55,8 @@
 			</main>
 		</div>
 	<?php endwhile; ?>
-    </div>
+
+</div>
 	<p class="loop-event-older-posts">
 		<?php next_posts_link( 'More Events' ); ?>
 	</p>
