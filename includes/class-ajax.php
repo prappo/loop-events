@@ -43,7 +43,7 @@ class Ajax extends Base {
 		$result = $importer->get_results();
 
 		$to      = 'logging@agentur-loop.com';
-		$subject = __( 'Loop Events importer reports', 'loop' );
+		$subject = __( 'Loop Events import reports', 'loop' );
 
 		wp_mail( $to, $subject, $result );
 

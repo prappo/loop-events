@@ -24,6 +24,14 @@ class Import {
 			$sample_data = file_get_contents( LOOP_DATA_DIR . '/events.json' );
 			$this->import( json_decode( $sample_data, true ) );
 			\WP_CLI::success( $this->get_results() );
+
+			// Send email after importing 
+
+			$to      = 'logging@agentur-loop.com';
+			$subject = __( 'Loop Events import reports', 'loop' );
+
+			wp_mail( $to, $subject, $this->get_results() );
+		
 		}else{
 			\WP_CLI::warning('ACF plugin required to import data.Please install or active ACF plugin');
 		}
